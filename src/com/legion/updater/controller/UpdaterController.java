@@ -532,11 +532,14 @@ public class UpdaterController {
     public boolean isWaitingForReboot(String downloadId) {
         return ABUpdateInstaller.isWaitingForReboot(mContext, downloadId);
     }
+//will delete if fucked
+    private class DownloadEntry {
+        final Update mUpdate;
+        DownloadClient mDownloadClient;
 
-    public void setPerformanceMode(boolean enable) {
-        if (!Utils.isABDevice()) {
-            return;
+        private DownloadEntry(Update update) {
+            mUpdate = update;
         }
-        ABUpdateInstaller.getInstance(mContext, this).setPerformanceMode(enable);
+//till here
     }
 }
