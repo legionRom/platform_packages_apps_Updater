@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.havoc.updater;
+package com.legion.updater;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -26,7 +26,7 @@ import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.havoc.updater.misc.FileUtils;
+import com.legion.updater.misc.FileUtils;
 
 import java.io.File;
 import java.io.IOException;

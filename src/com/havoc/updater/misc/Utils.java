@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.havoc.updater.misc;
+package com.legion.updater.misc;
 
 import android.app.AlarmManager;
 import android.content.ClipData;
@@ -34,12 +34,12 @@ import android.widget.Toast;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import com.havoc.updater.R;
-import com.havoc.updater.UpdatesDbHelper;
-import com.havoc.updater.controller.UpdaterService;
-import com.havoc.updater.model.UpdateBaseInfo;
-import com.havoc.updater.model.Update;
-import com.havoc.updater.model.UpdateInfo;
+import com.legion.updater.R;
+import com.legion.updater.UpdatesDbHelper;
+import com.legion.updater.controller.UpdaterService;
+import com.legion.updater.model.UpdateBaseInfo;
+import com.legion.updater.model.Update;
+import com.legion.updater.model.UpdateInfo;
 
 import java.io.BufferedReader;
 import java.io.File;

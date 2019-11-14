@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.havoc.updater.misc;
+package com.legion.updater.misc;
 
 import android.util.Log;
 

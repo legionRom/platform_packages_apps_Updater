@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.havoc.updater.model;
+package com.legion.updater.model;
 
 import java.io.File;
 

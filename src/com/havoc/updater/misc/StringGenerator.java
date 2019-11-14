@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.havoc.updater.misc;
+package com.legion.updater.misc;
 
 import android.content.Context;
 import android.content.res.Resources;
 
-import com.havoc.updater.R;
+import com.legion.updater.R;
 
 import java.text.DateFormat;
 import java.util.Date;

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.havoc.updater.controller;
+package com.legion.updater.controller;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -31,14 +31,14 @@ import android.support.v4.content.LocalBroadcastManager;
 import android.text.format.Formatter;
 import android.util.Log;
 
-import com.havoc.updater.R;
-import com.havoc.updater.UpdaterReceiver;
-import com.havoc.updater.UpdatesActivity;
-import com.havoc.updater.misc.BuildInfoUtils;
-import com.havoc.updater.misc.StringGenerator;
-import com.havoc.updater.misc.Utils;
-import com.havoc.updater.model.UpdateInfo;
-import com.havoc.updater.model.UpdateStatus;
+import com.legion.updater.R;
+import com.legion.updater.UpdaterReceiver;
+import com.legion.updater.UpdatesActivity;
+import com.legion.updater.misc.BuildInfoUtils;
+import com.legion.updater.misc.StringGenerator;
+import com.legion.updater.misc.Utils;
+import com.legion.updater.model.UpdateInfo;
+import com.legion.updater.model.UpdateStatus;
 
 import java.io.IOException;
 import java.text.DateFormat;

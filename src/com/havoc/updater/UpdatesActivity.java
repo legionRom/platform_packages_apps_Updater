@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.havoc.updater;
+package com.legion.updater;
 
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -50,14 +50,14 @@ import android.widget.Switch;
 import android.widget.TextView;
 
 import org.json.JSONException;
-import com.havoc.updater.controller.UpdaterController;
-import com.havoc.updater.controller.UpdaterService;
-import com.havoc.updater.download.DownloadClient;
-import com.havoc.updater.misc.BuildInfoUtils;
-import com.havoc.updater.misc.Constants;
-import com.havoc.updater.misc.StringGenerator;
-import com.havoc.updater.misc.Utils;
-import com.havoc.updater.model.UpdateInfo;
+import com.legion.updater.controller.UpdaterController;
+import com.legion.updater.controller.UpdaterService;
+import com.legion.updater.download.DownloadClient;
+import com.legion.updater.misc.BuildInfoUtils;
+import com.legion.updater.misc.Constants;
+import com.legion.updater.misc.StringGenerator;
+import com.legion.updater.misc.Utils;
+import com.legion.updater.model.UpdateInfo;
 
 import java.io.File;
 import java.io.IOException;

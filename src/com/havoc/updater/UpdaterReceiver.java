@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.havoc.updater;
+package com.legion.updater;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -27,16 +27,16 @@ import android.os.SystemProperties;
 import android.support.v4.app.NotificationCompat;
 import android.support.v7.preference.PreferenceManager;
 
-import com.havoc.updater.misc.BuildInfoUtils;
-import com.havoc.updater.misc.Constants;
-import com.havoc.updater.misc.StringGenerator;
+import com.legion.updater.misc.BuildInfoUtils;
+import com.legion.updater.misc.Constants;
+import com.legion.updater.misc.StringGenerator;
 
 import java.text.DateFormat;
 
 public class UpdaterReceiver extends BroadcastReceiver {
 
     public static final String ACTION_INSTALL_REBOOT =
-            "com.havoc.updater.action.INSTALL_REBOOT";
+            "com.legion.updater.action.INSTALL_REBOOT";
 
     private static final String INSTALL_ERROR_NOTIFICATION_CHANNEL =
             "install_error_notification_channel";

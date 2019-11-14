@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.havoc.updater;
+package com.legion.updater;
 
 import android.support.v7.app.AppCompatActivity;
 

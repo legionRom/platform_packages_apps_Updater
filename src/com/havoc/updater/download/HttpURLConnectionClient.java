@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.havoc.updater.download;
+package com.legion.updater.download;
 
 import android.os.SystemClock;
 import android.util.Log;

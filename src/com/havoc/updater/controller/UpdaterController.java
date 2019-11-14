@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.havoc.updater.controller;
+package com.legion.updater.controller;
 
 import android.content.Context;
 import android.content.Intent;
@@ -23,12 +23,12 @@ import android.os.SystemClock;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 
-import com.havoc.updater.UpdatesDbHelper;
-import com.havoc.updater.download.DownloadClient;
-import com.havoc.updater.misc.Utils;
-import com.havoc.updater.model.Update;
-import com.havoc.updater.model.UpdateInfo;
-import com.havoc.updater.model.UpdateStatus;
+import com.legion.updater.UpdatesDbHelper;
+import com.legion.updater.download.DownloadClient;
+import com.legion.updater.misc.Utils;
+import com.legion.updater.model.Update;
+import com.legion.updater.model.UpdateInfo;
+import com.legion.updater.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;

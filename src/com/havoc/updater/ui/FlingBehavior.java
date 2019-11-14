@@ -1,4 +1,4 @@
-package com.havoc.updater.ui;
+package com.legion.updater.ui;
 
 import android.content.Context;
 import android.support.design.widget.AppBarLayout;

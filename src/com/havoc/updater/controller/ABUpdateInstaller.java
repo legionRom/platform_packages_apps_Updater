@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.havoc.updater.controller;
+package com.legion.updater.controller;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -23,10 +23,10 @@ import android.support.v7.preference.PreferenceManager;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.havoc.updater.misc.Constants;
-import com.havoc.updater.misc.Utils;
-import com.havoc.updater.model.Update;
-import com.havoc.updater.model.UpdateStatus;
+import com.legion.updater.misc.Constants;
+import com.legion.updater.misc.Utils;
+import com.legion.updater.model.Update;
+import com.legion.updater.model.UpdateStatus;
 
 import java.io.BufferedReader;
 import java.io.File;

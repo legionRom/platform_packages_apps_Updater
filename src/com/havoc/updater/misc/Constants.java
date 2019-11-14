@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.havoc.updater.misc;
+package com.legion.updater.misc;
 
 public final class Constants {
 
@@ -39,12 +39,12 @@ public final class Constants {
 
     public static final String PROP_AB_DEVICE = "ro.build.ab_update";
     public static final String PROP_BUILD_DATE = "ro.build.date.utc";
-    public static final String PROP_BUILD_VERSION = "ro.havoc.base.version";
-    public static final String PROP_DEVICE = "ro.havoc.device";
+    public static final String PROP_BUILD_VERSION = "ro.legion.base.version";
+    public static final String PROP_DEVICE = "ro.legion.device";
     public static final String PROP_NEXT_DEVICE = "ro.updater.next_device";
-    public static final String PROP_RELEASE_TYPE = "ro.havoc.releasetype";
-    public static final String PROP_UPDATER_ALLOW_DOWNGRADING = "havoc.updater.allow_downgrading";
-    public static final String PROP_UPDATER_URI = "havoc.updater.uri";
+    public static final String PROP_RELEASE_TYPE = "ro.legion.releasetype";
+    public static final String PROP_UPDATER_ALLOW_DOWNGRADING = "legion.updater.allow_downgrading";
+    public static final String PROP_UPDATER_URI = "legion.updater.uri";
 
     public static final String PREF_INSTALL_OLD_TIMESTAMP = "install_old_timestamp";
     public static final String PREF_INSTALL_NEW_TIMESTAMP = "install_new_timestamp";
